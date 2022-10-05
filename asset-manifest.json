@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolioo/static/css/main.914b9ccf.css",
+    "main.js": "/portfolioo/static/js/main.a8665761.js",
+    "static/media/mine3.png": "/portfolioo/static/media/mine3.a68058c1e045228e705c.png",
+    "static/media/fastcar.PNG": "/portfolioo/static/media/fastcar.f1635d7ed29693e45a8b.PNG",
+    "static/media/tesla1.PNG": "/portfolioo/static/media/tesla1.401965238b5f5a6ce1b0.PNG",
+    "static/media/photographer.PNG": "/portfolioo/static/media/photographer.cd6e9ebca9e0679b320f.PNG",
+    "static/media/ted-cv2.pdf": "/portfolioo/static/media/ted-cv2.019e5b5e41c0ab998572.pdf",
+    "static/media/musicapp.png": "/portfolioo/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/thumbup.png": "/portfolioo/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/portfolioo/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/portfolioo/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/portfolioo/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/portfolioo/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/portfolioo/index.html",
+    "main.914b9ccf.css.map": "/portfolioo/static/css/main.914b9ccf.css.map",
+    "main.a8665761.js.map": "/portfolioo/static/js/main.a8665761.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.914b9ccf.css",
+    "static/js/main.a8665761.js"
+  ]
+}

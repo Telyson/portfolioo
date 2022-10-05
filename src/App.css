@@ -1,20 +1,49 @@
 :root
 {
   --yellow: #F5C32C;
-    --orange : #FCA61F;
+    /* --orange : #FCA61F; */
+    --orange : #d90429;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
+    --blueCar : #ec9fac;
     --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --boxShadow : 0px 19px 60px rgba(145, 30, 30, 0.08);
+    --boxShad : 0px 19px 60px rgba(248, 10, 10, 0.08);
+    --orangeCard: rgba(243, 18, 18, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(148, 43, 43, 0.08);
 }
 
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
-    color: var(--black);    
+    color: var(--black);   
+    /* color: #d90429;    */
+    /* background-color: #045c5a;  */
+}
+
+.button {
+  border: 1px solid var(--orange);
+  border-radius: 26px;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: var(--orange);
+  transition: all 250ms ease-in;
+  /* flex: 2; */
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #fff;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: .5rem;
+  }
 }
 
 

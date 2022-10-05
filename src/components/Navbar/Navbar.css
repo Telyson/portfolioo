@@ -1,0 +1,84 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-inline: 15px;
+}
+
+.n-left {
+    display: flex;
+    /* flex: 1; */
+    gap: 2rem;
+    align-items: center;
+    color: var(--orange);
+    /* justify-content: center; */
+    /* background-color: blueviolet; */
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    display: flex;
+    /* flex: 1; */
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    /* background-color: blueviolet; */
+    padding-right: 3rem ;
+}
+
+/* .n-list {
+    flex: 10;
+} */
+
+.n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.n-list > ul li {
+    list-style-type: none;
+    cursor: pointer;
+    transition: all 250ms ease-in;
+    color: var(--orange);
+    /* text-transform: uppercase; */
+}
+
+/* .n-list span {
+    position: relative;
+}
+
+.n-list span::after {
+    content: "";
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+} */
+
+.n-list > ul li:hover {
+    color: var(--black);
+}
+
+@media screen and (max-width: 480px) {
+    .n-list {
+        display: none;
+    }
+    .button {
+        display: none;
+    }
+}
